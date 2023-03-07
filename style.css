@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F4EFE5;
+}
+
+.container {
+    background-color: #fff;
+    height: 380px;
+    width: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+
+nav {
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   ;
+}
+a {
+    margin-right: 2%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: black;
+    
+}   
+
+a:focus {
+    background-color:#edcd8d;
+ 
+}
